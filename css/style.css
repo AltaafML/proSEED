@@ -5,11 +5,15 @@ body, html {
     background: #f4f4f4;
     color: #333;
 }
+#nbar{
+    background-color: goldenrod !important;
+}
 
 nav {
     background-color: goldenrod;
     padding: 10px 0;
     text-align: center;
+    align-content: center;
 }
 
 nav ul {
@@ -24,7 +28,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: white !important;
     text-decoration: none;
     font-size: 18px;
     padding: 10px 20px;
